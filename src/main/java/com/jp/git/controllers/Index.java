@@ -13,4 +13,9 @@ public class Index {
 	public ResponseEntity<String> saludo (){
 		return ResponseEntity.ok("Hola desde microservicio");
 	}
+	
+	@GetMapping("/saludoCuatro")
+	public ResponseEntity<String> saludoCuatro(){
+		return ResponseEntity.ok("Hola desde microservicio cuatro");
+	}
 }
